@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <center>
+    <div class="main">
+        <div>
+            <h1>Calculater</h1>
+        </div>
+<br>
+<br>
+<div>
+    <input id="inp" type="text">
+</div>
+<br>
+<div>
+    <button class="white" onclick="clearall()">AC</button>
+    <button class="white" onclick="CLEAR()">DEL</button>
+    <button class="white" onclick="btnclick('%')">%</button>
+    <button class="yellow" onclick="btnclick('/')">/</button>
+</div>
+<br>
+<div>
+    <button class="black" onclick="btnclick(7)">7</button>
+    <button class="black" onclick="btnclick(8)">8</button>
+    <button class="black" onclick="btnclick(9)">9</button>
+    <button class="yellow" onclick="btnclick('*')">X</button>
+</div>
+<br>
+<div>
+    <button class="black" onclick="btnclick(4)">4</button>
+    <button class="black" onclick="btnclick(5)">5</button>
+    <button class="black" onclick="btnclick(6)">6</button>
+    <button class="yellow" onclick="btnclick('-')">-</button>
+</div>
+<br>
+<div>
+    <button class="black" onclick="btnclick(1)">1</button>
+    <button class="black" onclick="btnclick(2)">2</button>
+    <button class="black" onclick="btnclick(3)">3</button>
+    <button class="yellow" onclick="btnclick('+')">+</button>
+</div>
+<br>
+<div>
+    <button class="sp" onclick="btnclick(0)">0</button>
+    <button class="black" onclick="btnclick('.')">.</button>
+    <button class="yellow" onclick="eq()" >=</button>
+</div>
+<br>
+
+
+  </div>
+</center>  
+    
+    <script src="app.js"></script>
+</body>
+</html>

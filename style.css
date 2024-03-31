@@ -1,0 +1,42 @@
+.white{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+}
+.black{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+}
+.yellow{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(221, 185, 94);
+    border-radius: 50px;
+    color: black;
+}
+.main{
+    height: 80vh;
+    width: 50vh;
+    border: 2px solid black;
+    border-radius: 16px;
+    background-color: rgb(39, 38, 38);
+
+}
+#inp{
+    border: 2px solid black;
+}
+.sp{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;    
+}
+h1{
+    color: whitesmoke;
+}
